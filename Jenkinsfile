@@ -1,6 +1,5 @@
 pipeline {
     agent any
-     def mvnHome = tool 'maven-default'
        triggers {
         pollSCM "* * * * *"
        }
